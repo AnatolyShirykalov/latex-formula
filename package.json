@@ -1,7 +1,7 @@
 {
   "name": "latex-formula",
-  "version": "1.0.0",
-  "description": "wrapper for react-mathjax",
+  "version": "0.0.1",
+  "description": "wrapper for react-mathjax, can be used for rendering changable formulas",
   "author": "AnatolyShirykalov",
   "license": "MIT",
   "repository": "AnatolyShirykalov/latex-formula",
@@ -20,7 +20,8 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "react-mathjax": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -29,6 +30,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.6",
     "cross-env": "^5.1.4",
     "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
