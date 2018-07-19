@@ -6,10 +6,10 @@ import PropTypes from 'prop-types'
 
 class LaTeX extends Component {
   static propTypes = {
-    onDidUpdate: PropTypes.function,
+    onDidUpdate: PropTypes.func,
     formula: PropTypes.string.isRequired,
     inline: PropTypes.bool,
-    onClick: PropTypes.function,
+    onClick: PropTypes.func,
     className: PropTypes.string
   }
 
