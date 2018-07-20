@@ -49,6 +49,8 @@ export default class App extends Component {
 }
 ```
 
+See [DEMO](https://anatolyshirykalov.github.io/latex-formula)
+
 ## License
 
 MIT © [AnatolyShirykalov](https://github.com/AnatolyShirykalov)
